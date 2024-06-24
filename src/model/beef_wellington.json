@@ -1,0 +1,166 @@
+{
+    "id": "1",
+    "name": "Beef Wellington",
+    "description": "Beef Wellington is a classic British dish consisting of beef tenderloin coated with pâté and duxelles (a mixture of finely chopped mushrooms, onions, garlic, and herbs) wrapped in puff pastry and baked until golden brown.",
+    "servings": 4,
+    "duration_in_minutes": 60,
+    "difficulty": "Medium",
+    "nationality": "British",
+    "ingredients": [
+      {
+        "id": "1",
+        "name": "Beef Tenderloin",
+        "nationality": "British",
+        "amount": 600,
+        "measurement": "grams",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "2",
+        "name": "Puff Pastry",
+        "nationality": "British",
+        "amount": 500,
+        "measurement": "grams",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "3",
+        "name": "Mushrooms",
+        "nationality": "British",
+        "amount": 250,
+        "measurement": "grams",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "4",
+        "name": "Onion",
+        "nationality": "British",
+        "amount": 1,
+        "measurement": "large",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "5",
+        "name": "Garlic",
+        "nationality": "British",
+        "amount": 2,
+        "measurement": "cloves",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "6",
+        "name": "Fresh Thyme",
+        "nationality": "British",
+        "amount": 1,
+        "measurement": "tablespoon",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "7",
+        "name": "Dijon Mustard",
+        "nationality": "French",
+        "amount": 2,
+        "measurement": "tablespoons",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "8",
+        "name": "Egg",
+        "nationality": "British",
+        "amount": 1,
+        "measurement": "large",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "9",
+        "name": "Olive Oil",
+        "nationality": "International",
+        "amount": 2,
+        "measurement": "tablespoons",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "10",
+        "name": "Salt",
+        "nationality": "International",
+        "amount": 1,
+        "measurement": "teaspoon",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "11",
+        "name": "Black Pepper",
+        "nationality": "International",
+        "amount": 1,
+        "measurement": "teaspoon",
+        "dietary_restrictions": []
+      },
+      {
+        "id": "12",
+        "name": "Flour",
+        "nationality": "International",
+        "amount": 1,
+        "measurement": "tablespoon",
+        "dietary_restrictions": []
+      }
+    ],
+    "steps": [
+      {
+        "id": "1",
+        "description": "Preheat the oven to 200°C (400°F)."
+      },
+      {
+        "id": "2",
+        "description": "Season the beef tenderloin with salt and black pepper."
+      },
+      {
+        "id": "3",
+        "description": "Heat olive oil in a pan over high heat. Sear the beef on all sides until browned. Remove from heat and let it cool."
+      },
+      {
+        "id": "4",
+        "description": "In the same pan, add chopped mushrooms, onion, and garlic. Cook until the mushrooms release their moisture and the mixture becomes dry."
+      },
+      {
+        "id": "5",
+        "description": "Add fresh thyme, salt, and black pepper to the mushroom mixture. Stir well and remove from heat to let it cool."
+      },
+      {
+        "id": "6",
+        "description": "On a lightly floured surface, roll out the puff pastry to a rectangular shape."
+      },
+      {
+        "id": "7",
+        "description": "Spread a layer of Dijon mustard on the puff pastry."
+      },
+      {
+        "id": "8",
+        "description": "Spread the mushroom mixture evenly over the puff pastry."
+      },
+      {
+        "id": "9",
+        "description": "Place the seared beef tenderloin on top of the mushroom layer."
+      },
+      {
+        "id": "10",
+        "description": "Wrap the puff pastry tightly around the beef, sealing all edges."
+      },
+      {
+        "id": "11",
+        "description": "Beat an egg in a small bowl and brush it over the pastry to give it a golden finish."
+      },
+      {
+        "id": "12",
+        "description": "Place the wrapped beef Wellington on a baking sheet and bake in the preheated oven for 25-30 minutes or until the pastry is golden brown."
+      },
+      {
+        "id": "13",
+        "description": "Remove from the oven and let it rest for a few minutes before slicing into thick portions."
+      },
+      {
+        "id": "14",
+        "description": "Serve the Beef Wellington with your choice of sides."
+      }
+    ],
+    "tags": ["beef", "wellington", "fillet", "classic", "main course"]
+  }

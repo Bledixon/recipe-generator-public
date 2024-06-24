@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    box-sizing: border-box;
+
+    color-scheme: light dark;
+    color: theme('colors.secondary');
+    background-color: theme('colors.primary');
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    font-weight: 500;
+    color: theme('colors.primary');
+    text-decoration: inherit;
+}
+a:hover {
+    color: theme('colors.primary');
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    min-height: 100svh;
+}
+
+input {
+    background-color: theme('colors.secondary');
+    color: theme('colors.primary');
+}
+
+input::placeholder {
+    color: theme('colors.primary');
+    opacity: 0.75;
+}
+
+input::-ms-input-placeholder { /* Edge 12 -18 */
+    color: theme('colors.primary');
+    opacity: 0.75;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: theme('colors.secondary');
+    color: theme('colors.primary');
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+    padding: 2em;
+}
+
+#app {
+    box-sizing: border-box;
+    padding: 16px;
+    width: 100vw;
+    width: 100svw;
+    height: 100vh;
+    height: 100svh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 8px;
+}
+
+.main-grid-header {
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    justify-content: center;
+}
+
+.main-grid-body-one { 
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.main-grid-body-two { 
+    grid-area: 3 / 1 / 4 / 2; 
+}
+
+.h-screen {
+    height: 100vh !important;
+    height: 100svh !important;
+}
+
+.w-screen {
+    width: 100vw !important;
+    width: 100svw !important;
+}
+
+@media (prefers-color-scheme: light) {
+}
